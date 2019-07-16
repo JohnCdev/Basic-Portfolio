@@ -23,17 +23,17 @@ clearfix {
     left: 0;
     width: 100%;
     height: 75px;
-    border-bottom: medium solid #cccccc;
+    border-bottom: 2px solid #cccccc;
     position: relative;
 }
 
-#nav_content {
+#nav-content {
     width: 960px;
     position: relative;
     display: inline-block;
 }
 
-#header_name_card {
+#header-name-card {
     float: left;
     height: 75px;
 }
@@ -41,14 +41,14 @@ clearfix {
 #name {
     color:  white;
     background-color: #4aaaa5;
-    height: 75px;
-    line-height: 75px;
+    height: 73px;
+    line-height: 73px;
     margin: 0;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-#nav_links {
+#nav-links {
     width: 50%;
     height: 75px;
     line-height: 75px;
@@ -59,8 +59,7 @@ clearfix {
 
 .links {
     float: right;
-    padding: 0px 10px 0px 10px;
-
+    padding: 0px 5px 0px 5px;
 }
 
 #content {
@@ -70,18 +69,17 @@ clearfix {
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 100px;
+    padding: 30px 30px 30px 30px;
 }
 
-#header_title {
+#header-title {
     color: #ffffff;
     clear: both;
     text-align: left;
-    padding-left: 50px;
-    padding-top: 20px;
     padding-bottom: 20px;
 }
 
-#content_title, h1, h2 {
+#content-title, h1, h2 {
     color:  #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
@@ -90,14 +88,14 @@ clearfix {
 #profile-image {
     float: left;
     height: 200px;
-    padding-left: 50px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 p {
     margin: 0;
     text-align: left;
-    padding: 20px 50px 20px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -113,24 +111,105 @@ footer {
 }
 
 hr {
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #dddddd;
 }
 
 #footer-content {
     position: absolute;
     bottom: 0;
+    font-size: 12px;
 }
 
-#content-divider {
-    width: 860px;
-    height: 2px;
-    background-color: #dddddd;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    line-height: 0px;
+.border {
+    border-bottom: 2px solid #dddddd;
 }
 
-.bottom-border {
-    
+hr.vertical {
+    height: 16px;
+    width: 0;
+    border: 1px solid #dddddd;
+    float: right;
+    margin-top: 30px;
+}
+
+/*Specific for Contact Page*/
+
+#contract-form {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.contact-input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dddddd;
+    padding-left: 8px;
+}
+
+input[type="text"]
+{
+    font-size:12px;
+    color: #777777;
+}
+
+h3 {
+   color: #919191;
+   font-weight: normal;
+   margin:0;
+   text-align: left;
+   margin-bottom: 3px;
+   margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+    float: left;
+    height: 36px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+/*Specific for Portfolio Page*/
+
+#icons {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.portfolio-img-wrapper {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 35px;
+}
+
+.portfolio-img {
+    height: 220px;
+    width: 275px;
+}
+
+.portfolio-label {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px; 
 }
